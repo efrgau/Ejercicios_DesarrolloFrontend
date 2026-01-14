@@ -1,0 +1,1 @@
+El siguiente repositorio se tiene en cuenta para realizar ejercicios sencillos, intermedios y complejos de HTML5, CSS2 y JS
