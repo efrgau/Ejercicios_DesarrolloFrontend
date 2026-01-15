@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-container{
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+}
+
+.signup-form{
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    padding: 35px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2) ;
+    color: #fff;
+}
+.signup-form h2{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 5px;
+
+}
+.signup-form p{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 25px;
+    opacity: 0.9;
+}
+
+.input-group{
+    position: relative;
+    margin-bottom: 22px;
+}
+.input-group input{
+    width: 100%;
+    padding: 12px 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+}
+.input-group label{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+.input-group input:focus + label,
+.input-group input:valid + label{
+    top: -6px;
+    font-size: 12px;
+    color: #fff;
+}
+button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0,3);
+}
+
+.login-link{
+    display: block;
+    text-align: center;
+    margin-top: 18px;
+    font-size: 14px;
+}
+.login-link a{
+    color: #ffd6d6;
+    text-decoration: none;
+    font-weight: 500;
+}
+.login-link a:hover{
+    text-decoration: underline;
+}
